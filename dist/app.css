@@ -6,15 +6,23 @@
 }
 
 .container {
-  width: 1320px;
+  width: 1380px;
   margin: auto;
 }
 .container.small {
   width: 1200px;
 }
 
-mg-bottom {
+.mg-bottom100 {
   margin-bottom: 100px;
+}
+
+.mg-bottom20 {
+  margin-bottom: 20px;
+}
+
+.mg-bottom50 {
+  margin-bottom: 50px;
 }
 
 header {
@@ -57,4 +65,19 @@ header .menu ul li a .fa-shopping-cart {
 .btn:hover {
   background-color: #1E1E1E;
   color: #fff;
+}
+
+.hero {
+  background-color: #F2F7FF;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+}
+.hero .hero_text {
+  width: 40%;
+  padding: 50px;
+}
+.hero img {
+  margin-top: 20px;
+  margin-bottom: -30px;
 }

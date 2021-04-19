@@ -6,13 +6,21 @@
 }
 
 .container {
-  width: 1320px;
+  width: 1380px;
   margin: auto;
   &.small {
     width: 1200px;
   }
 }
 
-mg-bottom {
+.mg-bottom100 {
   margin-bottom: 100px;
+}
+
+.mg-bottom20 {
+  margin-bottom: 20px;
+}
+
+.mg-bottom50 {
+  margin-bottom: 50px;
 }

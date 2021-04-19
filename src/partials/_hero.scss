@@ -1,0 +1,14 @@
+.hero {
+  background-color: $bgBlue;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+    & .hero_text {
+      width: 40%;
+      padding: 50px;
+    }
+    & img {
+      margin-top: 20px;
+      margin-bottom: -30px;
+    }
+  }
