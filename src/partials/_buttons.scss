@@ -6,6 +6,7 @@
   font-size: $fontBtn;
   border-radius: 4px;
   cursor: pointer;
+  max-height: 50px;
   &:hover {
     background-color: $textBlack;
     color: $textWhite;
