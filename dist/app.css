@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -13,8 +14,8 @@
   width: 1200px;
 }
 
-.mg-bottom100 {
-  margin-bottom: 100px;
+.mg-bottom150 {
+  margin-bottom: 150px;
 }
 
 .mg-bottom20 {
@@ -80,4 +81,47 @@ header .menu ul li a .fa-shopping-cart {
 .hero img {
   margin-top: 20px;
   margin-bottom: -30px;
+}
+
+.online_marketing {
+  display: flex;
+}
+.online_marketing .om_text ul li {
+  list-style: none;
+}
+.online_marketing .om_text ul li::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "";
+  color: #377DFF;
+  margin-right: 10px;
+}
+
+.features_1 {
+  display: flex;
+}
+.features_1 .feat_1_box {
+  display: flex;
+}
+
+.features_2 {
+  display: flex;
+}
+.features_2 p {
+  max-width: 70%;
+}
+
+.feat_2_boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+.feat_2_boxes .feat_2_box {
+  width: 25%;
+}
+
+.wrapper_1 {
+  background-image: url("../img/14.png");
+  background-repeat: no-repeat;
+  background-position-x: -30%;
+  background-position-y: 100%;
 }

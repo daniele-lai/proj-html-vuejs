@@ -1,0 +1,36 @@
+
+.online_marketing {
+  display: flex;
+  .om_text ul li {
+    list-style: none;
+    &::before {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      content: "\f00c";
+      color: $primaryBlue;
+      margin-right: 10px;
+    }
+  }
+}
+
+.features_1 {
+  display: flex;
+  .feat_1_box {
+    display: flex;
+  }
+}
+
+.features_2 {
+  display: flex;
+  p {
+    max-width: 70%;
+  }
+}
+
+.feat_2_boxes {
+  display: flex;
+  flex-wrap: wrap;
+  .feat_2_box {
+    width: 25%;
+  }
+}
