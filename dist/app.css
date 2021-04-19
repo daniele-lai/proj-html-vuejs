@@ -18,6 +18,10 @@
   margin-bottom: 150px;
 }
 
+.mg-bottom10 {
+  margin-bottom: 10px;
+}
+
 .mg-bottom20 {
   margin-bottom: 20px;
 }
@@ -78,18 +82,39 @@ header .menu ul li a .fa-shopping-cart {
   width: 40%;
   padding: 50px;
 }
+.hero .hero_text h1 {
+  font-weight: 400;
+  font-size: 40px;
+}
+.hero .hero_text p {
+  color: #8E989F;
+  font-size: 18px;
+  font-weight: 500;
+}
 .hero img {
   margin-top: 20px;
   margin-bottom: -30px;
 }
 
-.online_marketing {
+.om_section {
   display: flex;
 }
-.online_marketing .om_text ul li {
-  list-style: none;
+.om_section .online_marketing {
+  display: flex;
+  margin-right: 6px;
 }
-.online_marketing .om_text ul li::before {
+.om_section .online_marketing img {
+  max-height: 70px;
+}
+.om_section .online_marketing .om_text h3 {
+  font-weight: 500;
+  font-size: 23px;
+}
+.om_section .online_marketing .om_text ul li {
+  list-style: none;
+  font-weight: 500;
+}
+.om_section .online_marketing .om_text ul li::before {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   content: "";
@@ -102,6 +127,40 @@ header .menu ul li a .fa-shopping-cart {
 }
 .features_1 .feat_1_box {
   display: flex;
+  width: 95%;
+  align-items: center;
+  height: 150px;
+  padding: 10px;
+  border: 1px solid transparent;
+}
+.features_1 .feat_1_box:hover {
+  border: 1px solid #00000014;
+  box-shadow: 7px 12px 10px 0px rgba(0, 0, 0, 0.15);
+}
+.features_1 .feat_1_box:hover h4 {
+  color: #377DFF;
+}
+.features_1 .feat_1_box img {
+  margin-right: 20px;
+  max-height: 80px;
+}
+
+section h2, section h4 {
+  font-weight: 500;
+}
+section h2 {
+  font-size: 33px;
+  margin-bottom: 20px;
+}
+section h4 {
+  font-size: 20px;
+  color: #1E1E1E;
+  margin-bottom: 10px;
+}
+section p {
+  color: #8E989F;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .features_2 {
@@ -116,7 +175,23 @@ header .menu ul li a .fa-shopping-cart {
   flex-wrap: wrap;
 }
 .feat_2_boxes .feat_2_box {
-  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 10px;
+  width: 20%;
+  margin: 2%;
+  height: 150px;
+  border-radius: 5px;
+  box-shadow: 14px 0px 18px 16px rgba(0, 0, 0, 0.03);
+}
+.feat_2_boxes .feat_2_box:hover {
+  background-color: #6CDAC1;
+  color: #fff;
+  box-shadow: 3px 0px 16px 10px rgba(108, 218, 193, 0.27);
+}
+.feat_2_boxes .feat_2_box:hover h4 {
+  color: #fff;
 }
 
 .wrapper_1 {

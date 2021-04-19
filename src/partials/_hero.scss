@@ -3,11 +3,20 @@
   border-radius: 8px;
   display: flex;
   justify-content: space-around;
-    & .hero_text {
+    .hero_text {
       width: 40%;
       padding: 50px;
+      & h1 {
+        font-weight: $font400;
+        font-size: 40px;
+      }
+      & p {
+        color: $textGrey;
+        font-size: $fontParagraph;
+        font-weight: $font500;
+      }
     }
-    & img {
+    img {
       margin-top: 20px;
       margin-bottom: -30px;
     }

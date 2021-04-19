@@ -1,14 +1,27 @@
-
-.online_marketing {
+.om_section {
   display: flex;
-  .om_text ul li {
-    list-style: none;
-    &::before {
-      font-family: "Font Awesome 5 Free";
-      font-weight: 900;
-      content: "\f00c";
-      color: $primaryBlue;
-      margin-right: 10px;
+  .online_marketing {
+    display: flex;
+    margin-right: 6px;
+    & img {
+      max-height: 70px;
+    }
+    .om_text {
+      & h3 {
+        font-weight: $font500;
+        font-size: 23px;
+      }
+      & ul li {
+        list-style: none;
+        font-weight: $font500;
+        &::before {
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          content: "\f00c";
+          color: $primaryBlue;
+          margin-right: 10px;
+        }
+      }
     }
   }
 }
@@ -17,6 +30,42 @@
   display: flex;
   .feat_1_box {
     display: flex;
+    width: 95%;
+    align-items: center;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid transparent;
+    &:hover {
+      border: 1px solid $borderGrey;
+      box-shadow: 7px 12px 10px 0px rgba(0,0,0,0.15);
+      h4 {
+        color: $primaryBlue;
+      }
+    }
+    & img {
+      margin-right: 20px;
+      max-height: 80px;
+    }
+  }
+}
+
+section {
+  & h2, h4 {
+    font-weight: $font500;
+  }
+  h2 {
+    font-size: $fontTitle;
+    margin-bottom: 20px;
+  }
+  h4 {
+    font-size: $fontSubtitle;
+    color: $textBlack;
+    margin-bottom: 10px;
+  }
+  p {
+    color: $textGrey;
+    font-size: $fontParagraph;
+    font-weight: $font500;
   }
 }
 
@@ -31,6 +80,22 @@
   display: flex;
   flex-wrap: wrap;
   .feat_2_box {
-    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 10px;
+    width: 20%;
+    margin: 2%;
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 14px 0px 18px 16px rgb(0 0 0 / 3%);
+    &:hover {
+      background-color: $primaryGreen;
+      color: $textWhite;
+      box-shadow: 3px 0px 16px 10px rgba(108,218,193,0.27);
+      & h4 {
+        color: $textWhite;
+      }
+    }
   }
 }
