@@ -1,1 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
 
+.container {
+  width: 1320px;
+  margin: auto;
+}
+.container.small {
+  width: 1200px;
+}
+
+.btn {
+  background-color: #377DFF;
+  color: #fff;
+  border: 1px solid transparent;
+  padding: 14px 18px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #1E1E1E;
+  color: #fff;
+}
