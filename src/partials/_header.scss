@@ -8,7 +8,7 @@ header {
   }
   & .menu {
     display: flex;
-    width: 25%;
+    width: 60%;
     justify-content: space-between;
     align-items: center;
     & ul li {
@@ -17,9 +17,7 @@ header {
       & a {
         color: $textBlack;
         text-decoration: none;
-        & .fa-shopping-cart {
-          margin-left: 20px;
-        }
+        padding: 0 10px;
       }
     }
   }

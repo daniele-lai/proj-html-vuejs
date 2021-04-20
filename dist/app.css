@@ -45,7 +45,7 @@ header .logo img {
 }
 header .menu {
   display: flex;
-  width: 25%;
+  width: 60%;
   justify-content: space-between;
   align-items: center;
 }
@@ -56,9 +56,7 @@ header .menu ul li {
 header .menu ul li a {
   color: #1E1E1E;
   text-decoration: none;
-}
-header .menu ul li a .fa-shopping-cart {
-  margin-left: 20px;
+  padding: 0 10px;
 }
 
 .btn {
@@ -293,17 +291,22 @@ footer .footer p, footer .footer a {
 footer .footer p span, footer .footer a span {
   color: #377DFF;
 }
+footer .footer .menu_foot {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
 footer .footer .menu_foot h4 {
   font-size: 20px;
   font-weight: 500;
   color: #1E1E1E;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 footer .footer .menu_foot ul {
   list-style: none;
 }
 footer .footer .menu_foot ul li {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 footer .footer .menu_foot ul li a {
   text-decoration: none;

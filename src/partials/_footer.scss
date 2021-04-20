@@ -16,16 +16,19 @@ footer {
       }
     }
     .menu_foot {
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
       h4 {
         font-size: $fontSubtitle;
         font-weight: $font500;
         color: $textBlack;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
       }
       ul {
         list-style: none;
         li {
-          padding-bottom: 10px;
+          padding-bottom: 20px;
           a {
             text-decoration: none;
           }

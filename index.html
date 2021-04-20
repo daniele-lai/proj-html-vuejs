@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Vue -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
   <!-- Google Font -->
@@ -13,232 +15,233 @@
   <title>Sofbox</title>
 </head>
 <body>
-  <div class="container small">
-    <header>
-      <!-- header con logo, nav generata dinamicamente, icone e un button -->
-      <div class="logo">
-        <img src="img/logo-2.png" alt="Logo">
-      </div>
-      <div class="menu">
-        <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
-          </ul>
-        </nav>
-        <nav>
-          <ul>
-            <li><a href="#"><i class="fas fa-search"></i></a></li>
-            <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-          </ul>
-        </nav>
-        <button type="button" class="btn">Get Started</button>
-      </div>
-    </header>
-  </div>
-  <main>
-    <div class="wrapper_1">
-      <div class="container mg-bottom150">
-        <div class="hero">
-          <!-- Hero con immagine in background, testi e button -->
-          <div class="hero_text">
-            <h1 class="mg-bottom20">The biggest platform for your growth.</h1>
-            <p class="mg-bottom50">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alterations in some form</p>
-            <button type="button" class="btn mg-bottom50">Read More</button>
-          </div>
-          <img src="img/27-1.png" alt="Office chat">
-        </div>
-      </div>
-      <div class="container small">
-        <section class="om_section mg-bottom150">
-          <!-- prima section con tre parti che si ripetono -->
-          <div class="online_marketing">
-            <img src="img/24.png" alt="Logo monitor">
-            <div class="om_text">
-              <h3 class="mg-bottom10">Online Marketing</h3>
-              <p class="mg-bottom10">It is a long established fact that a reader will be distracted.</p>
-              <ul>
-                <li class="mg-bottom10">SEO</li>
-                <li class="mg-bottom10">SEM</li>
-                <li class="mg-bottom10">Website Strategy</li>
-                <li class="mg-bottom10">Social Management</li>
-              </ul>
-            </div>
-          </div>
-          <div class="online_marketing">
-            <img src="img/24.png" alt="Logo monitor">
-            <div class="om_text">
-              <h3 class="mg-bottom10">Online Marketing</h3>
-              <p class="mg-bottom10">It is a long established fact that a reader will be distracted.</p>
-              <ul>
-                <li class="mg-bottom10">SEO</li>
-                <li class="mg-bottom10">SEM</li>
-                <li class="mg-bottom10">Website Strategy</li>
-                <li class="mg-bottom10">Social Management</li>
-              </ul>
-            </div>
-          </div>
-          <div class="online_marketing">
-            <img src="img/24.png" alt="Logo monitor">
-            <div class="om_text">
-              <h3 class="mg-bottom10">Online Marketing</h3>
-              <p class="mg-bottom10">It is a long established fact that a reader will be distracted.</p>
-              <ul>
-                <li class="mg-bottom10">SEO</li>
-                <li class="mg-bottom10">SEM</li>
-                <li class="mg-bottom10">Website Strategy</li>
-                <li class="mg-bottom10">Social Management</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        <!-- da qui due section con testo, sottotesto e contenuto -->
-        <section class="mg-bottom150">
-          <!-- seconda section -->
-          <div class="features_1">
-            <div class="feat_1_text">
-              <h2>Get tips tricks on how to skyrocket your sales.</h2>
-              <p class="mg-bottom20">Faff about only a quid blower I don't want no agro bleeding chemney pot burke tosser cras nice one boot fanny!</p>
-              <div class="feat_1_box">
-                <img src="img/510.png" alt="A report">
-                <div class="feat_1_box_text">
-                  <h4>Reporting Analysis</h4>
-                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                </div>
-              </div>
-              <div class="feat_1_box">
-                <img src="img/511.png" alt="A document">
-                <div class="feat_1_box_text">
-                  <h4>Technical SEO Audit</h4>
-                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                </div>
-              </div>
-            </div>
-            <img src="img/509.jpeg" alt="Coworkers looking for ideas">
-          </div>
-        </section>
-        <section class="mg-bottom150">
-          <!-- terza section con otto box che si ripetono -->
-          <div class="features_2">
-            <div class="feat_2_text">
-              <h2>Popular features that your business needs</h2>
-              <p class="mg-bottom20">Faff about only a quid blower I don't want no agro bleeding chemney pot burke tosser cras nice one boot fanny!</p>
-            </div>
-            <button type="button" class="btn">Explore More Feature</button>
-          </div>
-          <div class="feat_2_boxes">
-            <div class="feat_2_box">
-              <h4>Customized Invoices</h4>
-              <i class="fas fa-paper-plane"></i>
-            </div>
-            <div class="feat_2_box">
-              <h4>Customized Invoices</h4>
-              <i class="fas fa-paper-plane"></i>
-            </div>
-            <div class="feat_2_box">
-              <h4>Customized Invoices</h4>
-              <i class="fas fa-paper-plane"></i>
-            </div>
-            <div class="feat_2_box">
-              <h4>Customized Invoices</h4>
-              <i class="fas fa-paper-plane"></i>
-            </div>
-            <div class="feat_2_box">
-              <h4>Customized Invoices</h4>
-              <i class="fas fa-paper-plane"></i>
-            </div>
-            <div class="feat_2_box">
-              <h4>Customized Invoices</h4>
-              <i class="fas fa-paper-plane"></i>
-            </div>
-            <div class="feat_2_box">
-              <h4>Customized Invoices</h4>
-              <i class="fas fa-paper-plane"></i>
-            </div>
-            <div class="feat_2_box">
-              <h4>Customized Invoices</h4>
-              <i class="fas fa-paper-plane"></i>
-            </div>
-          </div>
-        </section>
-      </div>
-    </div>
-
-
-    <!-- da qui tre section con testo e sottotesto centrato e contenuto -->
+  <div id="app">
     <div class="container small">
-      <section class="mg-bottom150">
-        <!-- testo, sottotesto e carousel -->
-        <div class="title_and_sub">
-          <h2>Our Testimonials</h2>
-          <p>If you are planning on developing a product landing app or website, take a look at this beautiful created</p>
+      <header>
+        <!-- header con logo, nav generata dinamicamente, icone e un button -->
+        <div class="logo">
+          <img src="img/logo-2.png" alt="Logo">
         </div>
-      </section>
-      <section class="mg-bottom150">
-      <!-- testo, sottotesto e tre box con immagine, testo e data -->
-        <div class="title_and_sub">
-          <h2>Latest Posts</h2>
-          <p>If you are planning on developing a product landing</p>
-        </div>
-        <div class="box_post">
-          <a href="#" class="link_post">
-            <img src="img/19.jpg" alt="Schedules">
-            <h4>Life Lack Meaning</h4>
-            <p>It is a long established fact that a reader will be distracted by the readable.</p>
-          </a>
-        </div>
-      </section>
-      <section class="mg-bottom150">
-        <!-- testo, sottotesto, sezione social e form con button -->
-        <div class="title_and_sub">
-          <h2>Contact with our team</h2>
-          <p>If you are planning on developing a product landing</p>
-        </div>
-        <div class="contacts">
-          <img class="map" src="img/StaticMapService.GetMapIma.png" alt="Location">
-          <div class="contacts_info">
-            <img src="img/35.png" alt="Sofbox Logo">
-            <h4 class="mg-bottom20">9840 Shore St. Fond Du Lac, WI 54935</h4>
-            <p class="mg-bottom10">0 1223 456 789</p>
-            <p class="mg-bottom50">mail@sofbox.com</p>
-            <ul class="social mg-bottom50">
-              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fab fa-github"></i></a></li>
-              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        <div class="menu">
+          <nav>
+            <ul>
+              <li v-for="link in links"><a href="#">{{link}}</a></li>
             </ul>
-            <h2>Get in Touch</h2>
-            <form>
-              <input class="mg-bottom20 name_mail" type="text" placeholder="Your Name">
-              <input class="mg-bottom20 name_mail" type="email" placeholder="Your Email">
-              <input class="mg-bottom20 subject" type="text" placeholder="Your Subject">
-              <textarea class="mg-bottom20" name="name" rows="15" cols="80" placeholder="Your Message"></textarea>
-            </form>
-            <button type="button" class="btn">Send Message</button>
+          </nav>
+          <nav>
+            <ul>
+              <li><a href="#"><i class="fas fa-search"></i></a></li>
+              <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+          </nav>
+          <button type="button" class="btn">Get Started</button>
+        </div>
+      </header>
+    </div>
+    <main>
+      <div class="wrapper_1">
+        <div class="container mg-bottom150">
+          <div class="hero">
+            <!-- Hero con immagine in background, testi e button -->
+            <div class="hero_text">
+              <h1 class="mg-bottom20">The biggest platform for your growth.</h1>
+              <p class="mg-bottom50">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alterations in some form</p>
+              <button type="button" class="btn mg-bottom50">Read More</button>
+            </div>
+            <img src="img/27-1.png" alt="Office chat">
           </div>
         </div>
-      </section>
-    </div>
-  </main>
-  <footer>
-    <!-- testo e tre liste di link -->
-    <div class="container small footer mg-bottom100">
-      <div class="copyright">
-        <img class="mg-bottom10" src="img/35.png" alt="Sofbox Logo">
-        <p class="mg-bottom50">It is a long established fact that a reader will be distracted by the readable content.</p>
-        <p>Copyright @ 2018 <span>Sofbox</span></p>
+        <div class="container small">
+          <section class="om_section mg-bottom150">
+            <!-- prima section con tre parti che si ripetono -->
+            <div class="online_marketing">
+              <img src="img/24.png" alt="Logo monitor">
+              <div class="om_text">
+                <h3 class="mg-bottom10">Online Marketing</h3>
+                <p class="mg-bottom10">It is a long established fact that a reader will be distracted.</p>
+                <ul>
+                  <li class="mg-bottom10">SEO</li>
+                  <li class="mg-bottom10">SEM</li>
+                  <li class="mg-bottom10">Website Strategy</li>
+                  <li class="mg-bottom10">Social Management</li>
+                </ul>
+              </div>
+            </div>
+            <div class="online_marketing">
+              <img src="img/24.png" alt="Logo monitor">
+              <div class="om_text">
+                <h3 class="mg-bottom10">Online Marketing</h3>
+                <p class="mg-bottom10">It is a long established fact that a reader will be distracted.</p>
+                <ul>
+                  <li class="mg-bottom10">SEO</li>
+                  <li class="mg-bottom10">SEM</li>
+                  <li class="mg-bottom10">Website Strategy</li>
+                  <li class="mg-bottom10">Social Management</li>
+                </ul>
+              </div>
+            </div>
+            <div class="online_marketing">
+              <img src="img/24.png" alt="Logo monitor">
+              <div class="om_text">
+                <h3 class="mg-bottom10">Online Marketing</h3>
+                <p class="mg-bottom10">It is a long established fact that a reader will be distracted.</p>
+                <ul>
+                  <li class="mg-bottom10">SEO</li>
+                  <li class="mg-bottom10">SEM</li>
+                  <li class="mg-bottom10">Website Strategy</li>
+                  <li class="mg-bottom10">Social Management</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <!-- da qui due section con testo, sottotesto e contenuto -->
+          <section class="mg-bottom150">
+            <!-- seconda section -->
+            <div class="features_1">
+              <div class="feat_1_text">
+                <h2>Get tips tricks on how to skyrocket your sales.</h2>
+                <p class="mg-bottom20">Faff about only a quid blower I don't want no agro bleeding chemney pot burke tosser cras nice one boot fanny!</p>
+                <div class="feat_1_box">
+                  <img src="img/510.png" alt="A report">
+                  <div class="feat_1_box_text">
+                    <h4>Reporting Analysis</h4>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                  </div>
+                </div>
+                <div class="feat_1_box">
+                  <img src="img/511.png" alt="A document">
+                  <div class="feat_1_box_text">
+                    <h4>Technical SEO Audit</h4>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                  </div>
+                </div>
+              </div>
+              <img src="img/509.jpeg" alt="Coworkers looking for ideas">
+            </div>
+          </section>
+          <section class="mg-bottom150">
+            <!-- terza section con otto box che si ripetono -->
+            <div class="features_2">
+              <div class="feat_2_text">
+                <h2>Popular features that your business needs</h2>
+                <p class="mg-bottom20">Faff about only a quid blower I don't want no agro bleeding chemney pot burke tosser cras nice one boot fanny!</p>
+              </div>
+              <button type="button" class="btn">Explore More Feature</button>
+            </div>
+            <div class="feat_2_boxes">
+              <div class="feat_2_box">
+                <h4>Customized Invoices</h4>
+                <i class="fas fa-paper-plane"></i>
+              </div>
+              <div class="feat_2_box">
+                <h4>Customized Invoices</h4>
+                <i class="fas fa-paper-plane"></i>
+              </div>
+              <div class="feat_2_box">
+                <h4>Customized Invoices</h4>
+                <i class="fas fa-paper-plane"></i>
+              </div>
+              <div class="feat_2_box">
+                <h4>Customized Invoices</h4>
+                <i class="fas fa-paper-plane"></i>
+              </div>
+              <div class="feat_2_box">
+                <h4>Customized Invoices</h4>
+                <i class="fas fa-paper-plane"></i>
+              </div>
+              <div class="feat_2_box">
+                <h4>Customized Invoices</h4>
+                <i class="fas fa-paper-plane"></i>
+              </div>
+              <div class="feat_2_box">
+                <h4>Customized Invoices</h4>
+                <i class="fas fa-paper-plane"></i>
+              </div>
+              <div class="feat_2_box">
+                <h4>Customized Invoices</h4>
+                <i class="fas fa-paper-plane"></i>
+              </div>
+            </div>
+          </section>
+        </div>
       </div>
-      <div class="menu_foot">
-        <h4>Menu</h4>
-        <ul>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Theme</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Blog</a></li>
-        </ul>
+
+
+      <!-- da qui tre section con testo e sottotesto centrato e contenuto -->
+      <div class="container small">
+        <section class="mg-bottom150">
+          <!-- testo, sottotesto e carousel -->
+          <div class="title_and_sub">
+            <h2>Our Testimonials</h2>
+            <p>If you are planning on developing a product landing app or website, take a look at this beautiful created</p>
+          </div>
+        </section>
+        <section class="mg-bottom150">
+          <!-- testo, sottotesto e tre box con immagine, testo e data -->
+          <div class="title_and_sub">
+            <h2>Latest Posts</h2>
+            <p>If you are planning on developing a product landing</p>
+          </div>
+          <div class="box_post">
+            <a href="#" class="link_post">
+              <img src="img/19.jpg" alt="Schedules">
+              <h4>Life Lack Meaning</h4>
+              <p>It is a long established fact that a reader will be distracted by the readable.</p>
+            </a>
+          </div>
+        </section>
+        <section class="mg-bottom150">
+          <!-- testo, sottotesto, sezione social e form con button -->
+          <div class="title_and_sub">
+            <h2>Contact with our team</h2>
+            <p>If you are planning on developing a product landing</p>
+          </div>
+          <div class="contacts">
+            <img class="map" src="img/StaticMapService.GetMapIma.png" alt="Location">
+            <div class="contacts_info">
+              <img src="img/35.png" alt="Sofbox Logo">
+              <h4 class="mg-bottom20">9840 Shore St. Fond Du Lac, WI 54935</h4>
+              <p class="mg-bottom10">0 1223 456 789</p>
+              <p class="mg-bottom50">mail@sofbox.com</p>
+              <ul class="social mg-bottom50">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-github"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              </ul>
+              <h2>Get in Touch</h2>
+              <form>
+                <input class="mg-bottom20 name_mail" type="text" placeholder="Your Name">
+                <input class="mg-bottom20 name_mail" type="email" placeholder="Your Email">
+                <input class="mg-bottom20 subject" type="text" placeholder="Your Subject">
+                <textarea class="mg-bottom20" name="name" rows="15" cols="80" placeholder="Your Message"></textarea>
+              </form>
+              <button type="button" class="btn">Send Message</button>
+            </div>
+          </div>
+        </section>
       </div>
-    </div>
-  </footer>
+    </main>
+    <footer>
+      <!-- testo e tre liste di link -->
+      <div class="container small footer mg-bottom100">
+        <div class="copyright">
+          <img class="mg-bottom10" src="img/35.png" alt="Sofbox Logo">
+          <p class="mg-bottom50">It is a long established fact that a reader will be distracted by the readable content.</p>
+          <p>Copyright @ 2018 <span>Sofbox</span></p>
+        </div>
+        <div class="menu_foot">
+          <div v-for="item in footer" class="link_footer">
+            <h4>{{item.name}}</h4>
+            <ul>
+              <li v-for="nav in item.subnav"><a href="#">{{nav}}</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/script.js" charset="utf-8"></script>
 </body>
 </html>
