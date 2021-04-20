@@ -18,6 +18,10 @@
   margin-bottom: 150px;
 }
 
+.mg-bottom100 {
+  margin-bottom: 100px;
+}
+
 .mg-bottom10 {
   margin-bottom: 10px;
 }
@@ -252,6 +256,9 @@ section p {
   border: 2px solid #00000014;
   padding: 10px;
 }
+.contacts .contacts_info form input:focus, .contacts .contacts_info form textarea:focus {
+  outline: none;
+}
 .contacts .contacts_info form .subject {
   width: 94%;
 }
@@ -265,4 +272,39 @@ section p {
   background-repeat: no-repeat;
   background-position-x: -30%;
   background-position-y: 100%;
+}
+
+footer {
+  border-top: 2px solid #00000014;
+}
+footer .footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+footer .footer .copyright {
+  width: 23%;
+}
+footer .footer p, footer .footer a {
+  color: #8E989F;
+  font-size: 18px;
+  font-weight: 500;
+}
+footer .footer p span, footer .footer a span {
+  color: #377DFF;
+}
+footer .footer .menu_foot h4 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #1E1E1E;
+  margin-bottom: 10px;
+}
+footer .footer .menu_foot ul {
+  list-style: none;
+}
+footer .footer .menu_foot ul li {
+  padding-bottom: 10px;
+}
+footer .footer .menu_foot ul li a {
+  text-decoration: none;
 }
