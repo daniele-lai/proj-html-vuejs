@@ -176,6 +176,19 @@
             <h2>Our Testimonials</h2>
             <p>If you are planning on developing a product landing app or website, take a look at this beautiful created</p>
           </div>
+          <div class="carousel mg-bottom20">
+            <transition-group class="carousel_wrap" tag="div">
+              <div v-for="card in cards" class="card" :key="card.name">
+                <img :src="'img/'+ card.img  +'.jpeg'" alt="Testimonial">
+                <h4>{{card.name}}<span> - {{card.job}}</span></h4>
+                <p>At vero eso et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium vero eos et consectetur accus adip adip</p>
+              </div>
+            </transition-group>
+          </div>
+          <div class="bullets">
+            <i :class="clicked == 1? 'active' : ''" class="fas fa-circle" @click="prevCard"></i>
+            <i :class="clicked == 2? 'active' : ''" class="fas fa-circle" @click="nextCard"></i>
+          </div>
         </section>
         <section class="mg-bottom150">
           <!-- testo, sottotesto e tre box con immagine, testo e data -->

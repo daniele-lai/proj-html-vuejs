@@ -1,0 +1,41 @@
+.carousel {
+  .carousel_wrap {
+    height: 290px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    .card {
+      text-align: center;
+      width: 48%;
+      padding: 20px;
+      transition: transform 0.3s ease-in-out;
+      box-shadow: 1px 3px 15px 1px rgba(0,0,0,0.08);
+      &:last-of-type {
+        display: none;
+      }
+      img {
+        border-radius: 80px;
+        height: 100px;
+        margin-bottom: 20px;
+      }
+      h4 {
+        margin-bottom: 20px;
+        span {
+          color: $textGrey;
+          font-size: $fontParagraph;
+          font-weight: $font500;
+        }
+      }
+    }
+  }
+}
+
+.bullets {
+  text-align: center;
+  cursor: pointer;
+}
+
+.active {
+  color: $primaryBlue;
+}

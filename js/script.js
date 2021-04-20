@@ -15,6 +15,36 @@ var app = new Vue({
         name: 'Quick Links',
         subnav: ['About Us', 'Theme', 'Features', 'Pricing', 'Blog']
       }
-    ]
+    ],
+    cards: [
+      {
+        img: '26',
+        name: 'Julia Aann',
+        job: 'COO Sofbox'
+      },
+      {
+        img: '27',
+        name: 'Mac Znder',
+        job: 'Manager Sofbox'
+      },
+      {
+        img: '25',
+        name: 'Uramaki Tempura',
+        job: 'Janitor Sofbox'
+      }
+    ],
+    clicked: undefined
+  },
+  methods: {
+    nextCard: function () {
+      const first = this.cards.shift();
+      this.cards = this.cards.concat(first);
+      this.clicked = 2;
+    },
+    prevCard: function () {
+      const last = this.cards.pop();
+      this.cards = [last].concat(this.cards);
+      this.clicked = 1;
+    }
   }
 })

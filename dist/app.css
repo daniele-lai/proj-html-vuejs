@@ -265,6 +265,46 @@ section p {
   margin-right: 20px;
 }
 
+.carousel .carousel_wrap {
+  height: 290px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+.carousel .carousel_wrap .card {
+  text-align: center;
+  width: 48%;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 1px 3px 15px 1px rgba(0, 0, 0, 0.08);
+}
+.carousel .carousel_wrap .card:last-of-type {
+  display: none;
+}
+.carousel .carousel_wrap .card img {
+  border-radius: 80px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.carousel .carousel_wrap .card h4 {
+  margin-bottom: 20px;
+}
+.carousel .carousel_wrap .card h4 span {
+  color: #8E989F;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.bullets {
+  text-align: center;
+  cursor: pointer;
+}
+
+.active {
+  color: #377DFF;
+}
+
 .wrapper_1 {
   background-image: url("../img/14.png");
   background-repeat: no-repeat;
