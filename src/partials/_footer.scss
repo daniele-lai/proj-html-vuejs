@@ -35,5 +35,18 @@ footer {
         }
       }
     }
+    .up {
+      position: absolute;
+      right: 50px;
+      height: 40px;
+      width: 40px;
+      border-radius: 31px;
+      background-color: $bgGrey;
+      text-align: center;
+      line-height: 40px;
+      a {
+        color: $textWhite;
+      }
+    }
   }
 }

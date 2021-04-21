@@ -406,3 +406,16 @@ footer .footer .menu_foot ul li {
 footer .footer .menu_foot ul li a {
   text-decoration: none;
 }
+footer .footer .up {
+  position: absolute;
+  right: 50px;
+  height: 40px;
+  width: 40px;
+  border-radius: 31px;
+  background-color: #00000026;
+  text-align: center;
+  line-height: 40px;
+}
+footer .footer .up a {
+  color: #fff;
+}
