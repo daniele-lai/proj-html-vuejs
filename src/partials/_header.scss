@@ -3,22 +3,44 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  & .logo img {
+  .logo img {
     height: 60px;
   }
-  & .menu {
+  .menu {
     display: flex;
     width: 60%;
     justify-content: space-between;
     align-items: center;
-    & ul li {
+    .first_nav a:hover {
+      border-bottom: 2px solid $primaryBlue;
+      color: $primaryBlue;
+    }
+    ul li {
       list-style: none;
       display: inline-block;
-      & a {
+      a {
         color: $textBlack;
         text-decoration: none;
-        padding: 0 10px;
+        margin: 0 10px;
+        padding-bottom: 15px;
+          .cart {
+            position: relative;
+            &::after {
+              content: '0';
+              width: 9px;
+              height: 14px;
+              border-radius: 10px;
+              color: $textWhite;
+              background-color: $primaryBlue;
+              font-size: 15px;
+              padding: 3px 7px;
+              position: absolute;
+              z-index: -1;
+              bottom: 9px;
+              left: 10px;
+            }
+          }
+        }
       }
-    }
   }
 }

@@ -4,3 +4,8 @@
   background-position-x: -30%;
   background-position-y: 100%;
 }
+
+.wrapper_gradient {
+  background-image: url("../img/15.png"), linear-gradient(to bottom, #f2f7ff, #f6f9ff, #fafbff, #fdfdff, #ffffff);
+  background-repeat: no-repeat;
+}

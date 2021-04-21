@@ -83,6 +83,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    position: relative;
     padding-left: 10px;
     width: 20%;
     margin: 2%;
@@ -96,6 +97,16 @@ section {
       & h4 {
         color: $textWhite;
       }
+      .dot_grid {
+        position: absolute;
+        bottom: -13%;
+        right: -9%;
+        height: 70px;
+        width: 70px;
+        background: linear-gradient(90deg, #fff (10px - 2px), transparent 1%) center, linear-gradient(#fff (10px - 2px), transparent 1%) center, $primaryGreen;
+        background-size: 10px 10px;
+        z-index: -1;
+      }
     }
   }
 }
@@ -107,6 +118,11 @@ section {
   p {
     margin-bottom: 100px;
   }
+}
+
+.posts {
+  display: flex;
+  justify-content: space-between;
 }
 
 .box_post {
@@ -123,6 +139,18 @@ section {
   }
   .link_post {
     text-decoration: none;
+    position: relative;
+    .date {
+      position: absolute;
+      left: 15px;
+      margin-top: 10px;
+      font-size: $fontParagraph;
+      font-weight: $font500;
+      color: $textGrey;
+      background-color: #fff;
+      padding: 6px;
+      border-radius: 8px;
+    }
   }
 }
 

@@ -33,7 +33,8 @@ var app = new Vue({
         job: 'Janitor Sofbox'
       }
     ],
-    clicked: undefined
+    clicked: undefined,
+    datePost: dayjs().format('MMMM D, YYYY')
   },
   methods: {
     nextCard: function () {
