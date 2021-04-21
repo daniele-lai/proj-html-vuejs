@@ -90,11 +90,31 @@ section {
     height: 150px;
     border-radius: 5px;
     box-shadow: 14px 0px 18px 16px rgb(0 0 0 / 3%);
+    .dot_grid {
+      position: absolute;
+      bottom: -13%;
+      right: -9%;
+      height: 70px;
+      width: 70px;
+    }
+    .icons {
+      font-size: 40px;
+      padding: 15px 10px;
+      &.blue {
+        color: $primaryBlue;
+      }
+      &.green {
+        color: $primaryGreen;
+      }
+      &.orange {
+        color: $primaryOrange;
+      }
+    }
     &:hover {
       background-color: $primaryGreen;
       color: $textWhite;
       box-shadow: 3px 0px 16px 10px rgba(108,218,193,0.27);
-      & h4 {
+      & h4, .icons {
         color: $textWhite;
       }
       .dot_grid {

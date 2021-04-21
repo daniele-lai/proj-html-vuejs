@@ -210,12 +210,32 @@ section p {
   border-radius: 5px;
   box-shadow: 14px 0px 18px 16px rgba(0, 0, 0, 0.03);
 }
+.feat_2_boxes .feat_2_box .dot_grid {
+  position: absolute;
+  bottom: -13%;
+  right: -9%;
+  height: 70px;
+  width: 70px;
+}
+.feat_2_boxes .feat_2_box .icons {
+  font-size: 40px;
+  padding: 15px 10px;
+}
+.feat_2_boxes .feat_2_box .icons.blue {
+  color: #377DFF;
+}
+.feat_2_boxes .feat_2_box .icons.green {
+  color: #6CDAC1;
+}
+.feat_2_boxes .feat_2_box .icons.orange {
+  color: #FF796D;
+}
 .feat_2_boxes .feat_2_box:hover {
   background-color: #6CDAC1;
   color: #fff;
   box-shadow: 3px 0px 16px 10px rgba(108, 218, 193, 0.27);
 }
-.feat_2_boxes .feat_2_box:hover h4 {
+.feat_2_boxes .feat_2_box:hover h4, .feat_2_boxes .feat_2_box:hover .icons {
   color: #fff;
 }
 .feat_2_boxes .feat_2_box:hover .dot_grid {
