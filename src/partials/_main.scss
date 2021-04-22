@@ -1,3 +1,24 @@
+// Regole comuni per le section del main
+section {
+  & h2, h4 {
+    font-weight: $font500;
+  }
+  h2 {
+    font-size: $fontTitle;
+    margin-bottom: 20px;
+  }
+  h4 {
+    font-size: $fontSubtitle;
+    color: $textBlack;
+    margin-bottom: 10px;
+  }
+  p {
+    color: $textGrey;
+    font-size: $fontParagraph;
+    font-weight: $font500;
+  }
+}
+
 .om_section {
   display: flex;
   .online_marketing {
@@ -35,6 +56,7 @@
     height: 150px;
     padding: 10px;
     border: 1px solid transparent;
+    transition: 0.5s;
     &:hover {
       border: 1px solid $borderGrey;
       box-shadow: 7px 12px 10px 0px rgba(0,0,0,0.15);
@@ -46,26 +68,6 @@
       margin-right: 20px;
       max-height: 80px;
     }
-  }
-}
-
-section {
-  & h2, h4 {
-    font-weight: $font500;
-  }
-  h2 {
-    font-size: $fontTitle;
-    margin-bottom: 20px;
-  }
-  h4 {
-    font-size: $fontSubtitle;
-    color: $textBlack;
-    margin-bottom: 10px;
-  }
-  p {
-    color: $textGrey;
-    font-size: $fontParagraph;
-    font-weight: $font500;
   }
 }
 
@@ -90,6 +92,7 @@ section {
     height: 150px;
     border-radius: 5px;
     box-shadow: 14px 0px 18px 16px rgb(0 0 0 / 3%);
+    transition: 0.3s;
     .dot_grid {
       position: absolute;
       bottom: -13%;
@@ -182,6 +185,7 @@ section {
     img {
       margin-bottom: 40px;
     }
+    // Sezione social
     .social {
       list-style: none;
       li {
@@ -199,6 +203,7 @@ section {
         }
       }
     }
+    // Form
     form {
       input, textarea {
         border-radius: 4px;

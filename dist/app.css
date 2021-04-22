@@ -49,6 +49,9 @@ header .menu {
   justify-content: space-between;
   align-items: center;
 }
+header .menu .first_nav a {
+  transition: 0.3s;
+}
 header .menu .first_nav a:hover {
   border-bottom: 2px solid #377DFF;
   color: #377DFF;
@@ -90,6 +93,7 @@ header .menu ul li a .cart::after {
   border-radius: 4px;
   cursor: pointer;
   max-height: 50px;
+  transition: 0.5s;
 }
 .btn:hover {
   background-color: #1E1E1E;
@@ -118,6 +122,24 @@ header .menu ul li a .cart::after {
 .hero img {
   margin-top: 20px;
   margin-bottom: -30px;
+}
+
+section h2, section h4 {
+  font-weight: 500;
+}
+section h2 {
+  font-size: 33px;
+  margin-bottom: 20px;
+}
+section h4 {
+  font-size: 20px;
+  color: #1E1E1E;
+  margin-bottom: 10px;
+}
+section p {
+  color: #8E989F;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .om_section {
@@ -156,6 +178,7 @@ header .menu ul li a .cart::after {
   height: 150px;
   padding: 10px;
   border: 1px solid transparent;
+  transition: 0.5s;
 }
 .features_1 .feat_1_box:hover {
   border: 1px solid #00000014;
@@ -167,24 +190,6 @@ header .menu ul li a .cart::after {
 .features_1 .feat_1_box img {
   margin-right: 20px;
   max-height: 80px;
-}
-
-section h2, section h4 {
-  font-weight: 500;
-}
-section h2 {
-  font-size: 33px;
-  margin-bottom: 20px;
-}
-section h4 {
-  font-size: 20px;
-  color: #1E1E1E;
-  margin-bottom: 10px;
-}
-section p {
-  color: #8E989F;
-  font-size: 18px;
-  font-weight: 500;
 }
 
 .features_2 {
@@ -209,6 +214,7 @@ section p {
   height: 150px;
   border-radius: 5px;
   box-shadow: 14px 0px 18px 16px rgba(0, 0, 0, 0.03);
+  transition: 0.3s;
 }
 .feat_2_boxes .feat_2_box .dot_grid {
   position: absolute;

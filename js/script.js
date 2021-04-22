@@ -1,7 +1,9 @@
 var app = new Vue({
   el: '#app',
   data: {
+    // Menù header
     links: ['Home', 'About Us', 'Features', 'Testimonials', 'Contact Us'],
+    // Link footer
     footer: [
       {
         name: 'Menu',
@@ -16,6 +18,7 @@ var app = new Vue({
         subnav: ['About Us', 'Theme', 'Features', 'Pricing', 'Blog']
       }
     ],
+    // Carousel
     cards: [
       {
         img: '26',
@@ -37,6 +40,7 @@ var app = new Vue({
     datePost: dayjs().format('MMMM D, YYYY')
   },
   methods: {
+    // Funzioni per bullet del carousel
     nextCard: function () {
       const first = this.cards.shift();
       this.cards = this.cards.concat(first);

@@ -41,10 +41,11 @@
       </header>
     </div>
     <main>
+      <!-- Wrapper per la parte superiore della pagina -->
       <div class="wrapper_1">
         <div class="container mg-bottom150">
           <div class="hero">
-            <!-- Hero con immagine in background, testi e button -->
+            <!-- Hero con immagine, testi e button -->
             <div class="hero_text">
               <h1 class="mg-bottom20">The biggest platform for your growth.</h1>
               <p class="mg-bottom50">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alterations in some form</p>
@@ -187,8 +188,10 @@
               <h2>Our Testimonials</h2>
               <p>If you are planning on developing a product landing app or website, take a look at this beautiful created</p>
             </div>
+            <!-- Carousel -->
             <div class="carousel mg-bottom20">
               <transition-group class="carousel_wrap" tag="div">
+                <!-- Card del carousel coon contenuto ciclato -->
                 <div v-for="card in cards" class="card" :key="card.name">
                   <img :src="'img/'+ card.img  +'.jpeg'" alt="Testimonial">
                   <h4>{{card.name}}<span> - {{card.job}}</span></h4>
@@ -250,12 +253,14 @@
               <h4 class="mg-bottom20">9840 Shore St. Fond Du Lac, WI 54935</h4>
               <p class="mg-bottom10">0 1223 456 789</p>
               <p class="mg-bottom50">mail@sofbox.com</p>
+              <!-- Sezione social -->
               <ul class="social mg-bottom50">
                 <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                 <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
                 <li><a href="https://www.github.com" target="_blank"><i class="fab fa-github"></i></a></li>
                 <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
               </ul>
+              <!-- Form -->
               <h2>Get in Touch</h2>
               <form>
                 <input class="mg-bottom20 name_mail" type="text" placeholder="Your Name">

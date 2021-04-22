@@ -11,9 +11,12 @@ header {
     width: 60%;
     justify-content: space-between;
     align-items: center;
-    .first_nav a:hover {
-      border-bottom: 2px solid $primaryBlue;
-      color: $primaryBlue;
+    .first_nav a {
+      transition: 0.3s;
+      &:hover {
+        border-bottom: 2px solid $primaryBlue;
+        color: $primaryBlue;
+      }
     }
     ul li {
       list-style: none;
