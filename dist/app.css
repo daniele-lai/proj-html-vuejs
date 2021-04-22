@@ -342,7 +342,7 @@ section p {
 }
 
 .carousel .carousel_wrap {
-  height: 290px;
+  height: 400px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -350,8 +350,11 @@ section p {
 }
 .carousel .carousel_wrap .card {
   text-align: center;
+  height: 90%;
   width: 48%;
   padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
   transition: transform 0.3s ease-in-out;
   box-shadow: 1px 3px 15px 1px rgba(0, 0, 0, 0.08);
 }
@@ -364,12 +367,16 @@ section p {
   margin-bottom: 20px;
 }
 .carousel .carousel_wrap .card h4 {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 .carousel .carousel_wrap .card h4 span {
   color: #8E989F;
   font-size: 18px;
   font-weight: 500;
+}
+.carousel .carousel_wrap .card p {
+  text-align: left;
+  padding: 0 3%;
 }
 
 .bullets {
